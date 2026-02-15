@@ -19,14 +19,14 @@ p,li{
 .nav-bar{
     display: inline-flex;
     justify-content: space-between;
-    height: 80px;
+    /* height: 80px; */
     background-color: gainsboro;
     width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .left-side{
-    margin-top: 20px;
-    margin-left: 10px;
+    text-align: center;
     font-size: larger;
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
@@ -44,13 +44,14 @@ p,li{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .food {
- margin: auto;
- width: 170px;
- text-align: center;
+    margin: auto;
+    width: 170px;
+    text-align: center;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .food img{
@@ -61,7 +62,7 @@ p,li{
     justify-content: space-between;
     margin-left: 10px;
     text-align: center; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 .food img:hover{

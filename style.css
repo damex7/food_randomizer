@@ -155,9 +155,9 @@ p,li{
 
 @media screen and (max-width: 768px) {
     .contents-1 {
-        flex-direction: column;
+        /* flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
 
     }
 

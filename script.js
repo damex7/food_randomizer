@@ -1,6 +1,9 @@
 // Get existing foods from HTML
 let foodList = Array.from(document.querySelectorAll(".name")).map(el => el.innerText);
 
+
+// console.log(foodList);
+
 // Display a random meal
 document.querySelector(".picker").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * foodList.length);

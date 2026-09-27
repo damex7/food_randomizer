@@ -155,7 +155,11 @@ p,li{
     background-color: rgb(7, 53, 7);
 }
 
-
+@media screen and (min-width: 320px) {
+    .fr{
+        font-size: 25px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .contents-1 {
@@ -185,8 +189,4 @@ p,li{
     }
 }
  
-@media screen and (min-width: 320px) {
-    .fr{
-        font-size: 25px;
-    }
-}
+

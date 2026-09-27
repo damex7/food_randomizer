@@ -185,4 +185,8 @@ p,li{
     }
 }
  
-
+@media screen and (min-width: 320px) {
+    .fr{
+        font-size: 25px;
+    }
+}
